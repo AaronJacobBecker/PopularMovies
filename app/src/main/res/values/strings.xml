@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <!-- NON Translatable -->
+
+    <!-- URLs -->
+
+    <!-- API Key -->
+    <string name="api_key" translatable="false">api_key</string>
+    <!-- API KEY value -->
+    <!-- TODO: Add your API key here -->
+    <string name="api_key_value" translatable="false"></string>
+
+    <!-- Full URLs -->
+    <string name="image_error" translatable="false">https://pixabay.com/en/false-error-missing-absent-x-red-2061132/</string>
+
+    <!-- Base URLs -->
+    <string name="api_movie_base_url" translatable="false">https://api.themoviedb.org/3/movie/"</string>
+    <string name="image_base_url" translatable="false">http://image.tmdb.org/t/p/</string>
+
+    <!-- Paths -->
+    <string name="image_size_w185_path" translatable="false">w185</string> <!-- recommended in Udacity Implementation Guide -->
+    <string name="api_popular_movie_endpoint" translatable="false">popular</string>
+    <string name="api_top_rated_movie_endpoint" translatable="false">top_rated</string>
+
+    <!-- JSON Keys -->
+    <!-- https://api.themoviedb.org/3/movie/popular?api_key= -->
+    <!-- https://api.themoviedb.org/3/movie/top_rated?api_key= -->
+    <string name="json_movies_page_number" translatable="false">page</string> <!-- 1 -->
+    <string name="json_movies_total_results_number" translatable="false">total_results</string> <!-- 19845 -->
+    <string name="json_movies_total_pages_number" translatable="false">total_pages</string> <!-- 993 -->
+    <string name="json_movies_results_array" translatable="false">results</string> <!-- [{}] -->
+    <string name="json_movies_result_vote_count_number" translatable="false">vote_count</string> <!-- 1732 -->
+    <string name="json_movies_result_id_number" translatable="false">id</string> <!-- 337167 -->
+    <string name="json_movies_result_video_bool" translatable="false">video</string> <!-- false -->
+    <string name="json_movies_result_vote_average_number" translatable="false">vote_average</string> <!-- 6 -->
+    <string name="json_movies_result_title_string" translatable="false">title</string> <!-- "Fifty Shades Freed" -->
+    <string name="json_movies_result_popularity_number" translatable="false">popularity</string> <!-- 538.579632 -->
+    <string name="json_movies_result_poster_path_string" translatable="false">poster_path</string> <!-- "\/jjPJ4s3DWZZvI4vw8Xfi4Vqa1Q8.jpg" -->
+    <string name="json_movies_result_original_language_string" translatable="false">original_language</string> <!-- "en" -->
+    <string name="json_movies_result_original_title_string" translatable="false">original_title</string> <!-- "Fifty Shades Freed" -->
+    <string name="json_movies_result_genre_ids_array_number" translatable="false">genre_ids</string> <!-- [number] -->
+    <string name="json_movies_result_backdrop_path_string" translatable="false">backdrop_path</string> <!-- "\/9ywA15OAiwjSTvg3cBs9B7kOCBF.jpg" -->
+    <string name="json_movies_result_adult_bool" translatable="false">adult</string> <!-- false -->
+    <string name="json_movies_result_overview_string" translatable="false">overview</string> <!-- "Believing they have left behind shadowy figures from their past, newlyweds Christian and Ana fully embrace an inextricable connection and shared life of luxury. But just as she steps into her role as Mrs. Grey and he relaxes into an unfamiliar stability, new threats could jeopardize their happy ending before it even begins." -->
+    <string name="json_movies_result_release_date_string" translatable="false">release_date</string> <!-- "2018-02-07" -->
+
+    <!-- Intent Extras -->
+    <string name="key_intent_extra_movies_results" translatable="false">movies_results</string>
+    <string name="key_intent_extra_position" translatable="false">position</string>
+    <!-- Parcelable -->
+    <string name="key_parcelable_movies_results" translatable="false">movies_results</string>
+
+    <!-- Translatable -->
+
+    <!-- App Name -->
+    <string name="app_name">Popular Movies</string>
+
+    <!-- Menus -->
+    <!-- MainActivity Menu -->
+    <string name="menu_popular_movies_sort">Popular</string>
+    <string name="menu_top_rated_movies_sort">Top Rated</string>
+
+    <!-- ImageView content description -->
+    <string name="image_view_content_description_poster">Movie Poster</string>
+
+    <!-- DetailActivity -->
+    <string name="detail_original_title">Original Title</string>
+    <string name="detail_overview">Plot Synopsis</string>
+    <string name="detail_vote_average">User Rating</string>
+    <string name="detail_release_date">Release Date</string>
+</resources>

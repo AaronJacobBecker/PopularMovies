@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".DetailActivity" >
+
+        <ImageView
+            android:id="@+id/value_poster_iv"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/activity_main_gridview_column_width_w185"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/activity_detail_label_top_spacing"
+            android:paddingBottom="@dimen/activity_detail_label_bottom_spacing"
+            android:visibility="visible"
+            android:contentDescription="@string/image_view_content_description_poster" />
+
+        <TextView
+            android:text="@string/detail_original_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/activity_detail_label_top_spacing"
+            android:paddingBottom="@dimen/activity_detail_label_bottom_spacing" />
+
+        <TextView
+            android:id="@+id/value_original_title_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:text="@string/detail_overview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/activity_detail_label_top_spacing"
+            android:paddingBottom="@dimen/activity_detail_label_bottom_spacing" />
+
+        <TextView
+            android:id="@+id/value_overview_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:text="@string/detail_vote_average"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/activity_detail_label_top_spacing"
+            android:paddingBottom="@dimen/activity_detail_label_bottom_spacing" />
+
+        <TextView
+            android:id="@+id/value_vote_average_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:text="@string/detail_release_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/activity_detail_label_top_spacing"
+            android:paddingBottom="@dimen/activity_detail_label_bottom_spacing" />
+
+        <TextView
+            android:id="@+id/value_release_date_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

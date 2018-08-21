@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- activity_main -->
+    <!-- GridView -->
+    <dimen name="activity_main_gridview_column_width_w185">185dp</dimen>
+    <dimen name="activity_main_gridview_vertical_spacing">1dp</dimen>
+    <dimen name="activity_main_gridview_horizontal_spacing">1dp</dimen>
+
+    <!-- activity_detail -->
+    <dimen name="activity_detail_label_top_spacing">16dp</dimen>
+    <dimen name="activity_detail_label_bottom_spacing">16dp</dimen>
+</resources>
